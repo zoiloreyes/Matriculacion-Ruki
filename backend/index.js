@@ -23,3 +23,5 @@ app.use((error, req, res, next) => {
 app.listen(process.env.PORT, () => {
    console.log("Server's Up");
 })
+
+module.exports = app;
